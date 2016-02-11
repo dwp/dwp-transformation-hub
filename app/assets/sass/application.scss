@@ -37,11 +37,15 @@ $backlog-colour: $purple;
 */
 .tag {
   color:white !important;
+  font-size:14px;
   font-weight:700;
-  padding:0.25em;
-  text-align:center;
+  letter-spacing:1px;
   text-decoration:none;
   text-transform:uppercase;
+  line-height:16px;
+  padding:3px 5px 2px;
+  margin-bottom:10px;
+  margin-top:10px;
 }
 .tag.backlog   {background-color:$backlog-colour}
 .tag.discovery {background-color:$discovery-colour;}
@@ -161,4 +165,40 @@ $backlog-colour: $purple;
     float:left;
     width:20%;
   }
+}
+.column-1-12 {
+  @include grid-column(1/12);
+}
+.column-2-12 {
+  @include grid-column(2/12);
+}
+.column-3-12 {
+  @include grid-column(3/12);
+}
+.column-4-12 {
+  @include grid-column(4/12);
+}
+.column-5-12 {
+  @include grid-column(5/12);
+}
+.column-6-12 {
+  @include grid-column(6/12);
+}
+.column-7-12 {
+  @include grid-column(7/12);
+}
+.column-8-12 {
+  @include grid-column(8/12);
+}
+.column-9-12 {
+  @include grid-column(9/12);
+}
+.column-10-12 {
+  @include grid-column(10/12);
+}
+.column-11-12 {
+  @include grid-column(11/12);
+}
+.column-12-12 {
+  @include grid-column(12/12);
 }
